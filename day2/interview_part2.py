@@ -35,6 +35,8 @@ Return ONLY the JSON object.
 Do NOT write any explanation.
 Do NOT write any text before or after the JSON.
 Do NOT use Markdown code blocks
+
+if found input other than this give response give in return wrong input or error you give wrong input
 """
 model="llama-3.3-70b-versatile"
 def ask_llm(interview_request: interviewRequest):
