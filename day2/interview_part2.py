@@ -69,6 +69,36 @@ request = interviewRequest(
 plan=ask_llm(request)
 
 
+
+
+
+
+
+
+
+# max_retries = 3
+
+# for attempt in range(max_retries):
+#     try:
+#         response = client.chat.completions.create(
+#             model=model,
+#             messages=messages,
+#             temperature=0.7
+#         )
+
+#         answer = response.choices[0].message.content
+
+#         data = json.loads(answer)
+#         result = interviewResponse.model_validate(data)
+
+#         return result
+
+#     except (json.JSONDecodeError, ValidationError) as e:
+#         print(f"Attempt {attempt + 1} failed: {e}")
+
+# raise ValueError("LLM failed after 3 attempts")
+
+
 #generator
 def generate_answer(interview_response: interviewResponse):
     systemm_prompt = """
