@@ -1,0 +1,8 @@
+RAG combines retrieval with generation.
+Documents are converted into chunks.
+Chunks are transformed into embeddings.
+Vector similarity is used for retrieval.
+Top-k documents are passed to the language model.
+Reranking can improve retrieval quality.
+Hybrid search combines semantic and keyword search.
+Query rewriting can improve retrieval quality.
